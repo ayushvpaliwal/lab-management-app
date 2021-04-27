@@ -1,0 +1,110 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;    
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+table td {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    background-color: white;
+
+}
+
+/*
+tr.grouped-row > td {
+    border-top: 10px solid #F6F5FA;
+    box-shadow: 0 0 3px lightgray;
+}
+*/
+
+/*
+tr > td {
+    border-top: 1px solid #ddd;
+    box-shadow: 0 0 3px lightgray;
+}
+*/
+
+table tbody {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 0 3px lightgray;
+    background-color: white;
+    font-weight: 500;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+  
+/* table tr:nth-child(even){background-color: #f2f2f2;} */
+  
+table tbody tr:hover {background-color: #ddd;}
+
+  
+table th {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    background-color: none;
+    color: #432F87;
+    border-radius: 10px;
+}
+
+#searchBar {
+    border-radius: 7px;
+    margin-left: 10px;
+    height: 40px;
+    width: 60%;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+}
+
+.table.sticky {
+	overflow: scroll;
+}
+
+.table.sticky .header,
+    .table.sticky .footer {
+	position: sticky;
+	z-index: 1;
+	width: fit-content;
+}
+
+.table.sticky .header {
+	top: 0;
+	box-shadow: 0px 3px 3px #ccc;
+}
+
+.table.sticky .footer {
+	bottom: 0;
+	box-shadow: 0px -3px 3px #ccc;
+}
+
+.table.sticky .body {
+	position: relative;
+	z-index: 0;
+}
+
+.table.sticky [data-sticky-td] {
+	position: sticky;
+}
+
+.table.sticky [data-sticky-last-left-td] {
+	box-shadow: 2px 0px 3px #ccc;
+}
+
+.table.sticky [data-sticky-first-right-td] {
+	box-shadow: -2px 0px 3px #ccc;
+}

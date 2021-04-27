@@ -1,0 +1,160 @@
+
+
+.bm-burger-button {
+  position: fixed;
+  width: 25px;
+  height: 20px;
+  left: 16px;
+  top: 20px;
+}
+
+.bm-burger-bars {
+  background: #432F87;
+}
+
+.bm-burger-bars-hover {
+  background: lightslategrey;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background:#432F87;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  margin-left: -15px;
+  height: 100%;
+}
+
+.bm-menu {
+  background: whitesmoke;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item:last-child {
+  position: absolute;
+  bottom: 10px;
+  color: #373a47;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #432F87;
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+  border: none;
+}
+
+.bm-item:hover {
+  color: lightslategrey;
+  margin: none;
+  text-decoration: none;
+}
+
+.bm-item {
+  outline: none;
+  background-color: none;
+  border: 0;
+}
+
+.bm-item:active {
+  outline: none;
+  background-color: none;
+  border: 0;
+}
+
+.menu-item:active {
+  outline: none;
+  background-color: none;
+  border: 0;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.btn-styled {
+  background-color: #432F87;
+  border: none;
+  font-weight: 500;
+}
+
+.btn.btn-secondary{
+  background-color: #432F87;
+  border: none;
+  font-weight: 500;
+}
+
+.sidebar-content {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 750ms;
+  background-color: whitesmoke;
+}
+
+.sidebar-content.open {
+	right: 0;
+  transition: 350ms;
+}
+
+h4 {
+  color: #432F87;
+}
+
+#logo {
+  /*margin-left: 50px;*/
+  font-size: x-large;
+  color: #432F87
+}
+
+.btn.btn-white {
+  color: white;
+  background-color: white;
+  border: none;
+}
+
+#signout-link {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+#hidden-qr {
+  margin-top: 0px;
+  display: "none"
+}
+
+.error {
+  text-align: "left"; 
+  color: "red"
+}

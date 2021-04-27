@@ -1,0 +1,74 @@
+{
+    "routes": [
+        {
+            "route": "/login",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/admin",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/primary-reagents/overview",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/primary-reagents/recent",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/primary-reagents/deleted",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/secondary-reagents/overview",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/secondary-reagents/recent",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/inventory/secondary-reagents/deleted",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/testhistory/all-tests/overview",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/testhistory/all-tests/deleted",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/testhistory/my-tests/overview",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/testhistory/my-tests/deleted",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/assays",
+            "serve": "index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/account",
+            "serve": "index.html",
+            "statusCode": 200
+        }
+    ]
+}

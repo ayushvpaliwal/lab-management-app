@@ -1,0 +1,447 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F5FA;
+  height: 100%;
+}
+
+#page-wrap {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.side-info-container {
+  padding-left: 30px;
+}
+
+.menu-header {
+  color: #432F87;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+li{
+  margin: 15px 0;
+}
+
+
+li > a {
+  color: grey;
+  font-size: large;
+  font-weight: 500; 
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+li > a > span {
+  padding-bottom: 10px; 
+  padding-right: 10px;   
+}
+
+li > a:hover {
+  border-right: 3px solid #432F87;
+  color: #432F87;
+  font-size: large;
+  font-weight: 500; 
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+li > a:active {
+  background-color: rgba(237, 139, 0, 0.2);
+  border-radius: 4px;
+}
+
+a.selected {
+  border-right: 3px solid #432F87;
+  color: #432F87;
+  font-size: large;
+  font-weight: 500; 
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.action-button-row {
+  margin-top: 76px; 
+  width: 100%;
+  position: fixed;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(47, 73, 209, 0.15);
+}
+
+.action-button {
+  line-height: 50px;
+  border: rgba(67, 47, 135, 0.9);
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0px 0px 10px 0px lightgrey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row.proxy-row {
+  height: 80px;
+}
+
+.table-container {
+  margin-top: 61px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+tbody svg {
+  color: #432F87
+}
+
+.header svg {
+  color: #432F87
+}
+
+#addAssayType > .container > .row > div > #assay-name-input {
+  width: 100%;
+  height: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid lightgray;
+  margin-bottom: 10px;
+  background-color: rgba(47, 73, 209, 0.0);
+  color: #432F87;
+  font-size: x-large;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+#addAssayType > .container > .row > div > #assay-name-input:-webkit-autofill,
+#addAssayType > .container > .row > div > #assay-name-input:-webkit-autofill:hover, 
+#addAssayType > .container > .row > div > #assay-name-input:-webkit-autofill:focus, 
+#addAssayType > .container > .row > div > #assay-name-input:-webkit-autofill:active
+{
+ -webkit-box-shadow: 0 0 0 30px rgba(47, 73, 209, 0.12) inset !important;
+ -webkit-text-fill-color: #432F87 !important;
+}
+
+#addAssayType > .container > .row > div > #assay-name-input::placeholder {
+  font-size: x-large;
+  color: grey;
+}
+
+#addAssayType > .container > .row > div > #assay-name-input:focus {
+  outline: none !important;
+  border-bottom: 3px solid #432F87;
+}
+
+#addAssayType > .container > .row > div > #assay-name-input:not(:placeholder-shown) {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none !important;
+  border-bottom: 3px solid #432F87;
+}
+
+.input-header {
+  margin-top: 20px;
+}
+
+.button-form-array {
+  border: none;
+  background-color: rgba(47, 73, 209, 0.0);
+}
+
+h4 {
+  font-size: large;
+}
+
+.input-h4 {
+  font-size: 20px;
+  color:#432F87;
+  font-weight:500;
+  margin-right: 10px
+}
+
+.submit-button {
+  margin-top : 20px;
+  border: none;
+  background-color: #432F87;
+  border: 1px solid #432F87;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px 0px lightgray; 
+  width: 60%;
+  height: 40px
+}
+
+.cancel-button {
+  margin-top : 20px;
+  border: none;
+  background-color: white;
+  border: 1px solid #432F87;
+  border-radius: 5px;
+  color: #432F87;
+  padding: 5px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px 0px lightgray; 
+  width: 35%;
+  height: 40px;
+  margin-right: 5%;
+}
+
+.accordion {
+  border-radius: 7px;
+  background-color: white;                                                    
+  box-shadow: 0px 0px 2px 0px lightgrey; 
+}
+.card {
+  border-radius: 7px;
+  background-color: rgba(47, 73, 209, 0.15);                                                    
+  box-shadow: 0px 0px 5px 0px rgba(47, 73, 209, 0.15); 
+}
+
+.accordion > .card > .card-header >.card-header {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: white;
+  border-bottom: lightgrey;
+  opacity: 0.9;                                                    
+  box-shadow: 0px 0px 5px 0px rgba(47, 73, 209, 0.15); 
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -13px;
+  margin-bottom: -13px;
+  color: #432F87;
+  font-weight: 500;
+  font-size: large;
+}
+
+/*
+.accordion > .card > .card-header >.card-header:active {
+  background-color: #432F87;
+}
+*/
+
+.assay-cards {
+  margin-top: 20px;
+}
+
+.login-input {
+  width: 60%;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  margin-top:10px
+}
+
+.login-page  {
+  height: 100%;
+}
+
+/* #addReagentForm > .row > .col-12 > input {
+  margin-bottom: 10px;
+  width: 100%;
+} 
+
+#addReagentForm > .row > .col-6 > input {
+  margin-bottom: 10px;
+  width: 100%;
+}  */
+
+.reagent-type-input{
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color: white;
+}
+
+#login-right {
+  background-color: #F6F5FA;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.reagent-card-value > .col > b {
+  color: grey;
+}
+
+.reagent-card-value > .col {
+  margin-bottom: 2.5px;
+  margin-top: 2.5px;
+}
+
+#addReagentForm > .row > div > input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#addReagentForm > .row > div > select {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#addReagentForm > .row > div > label {
+  color: #432F87;
+  font-weight: 500;
+}
+
+#addReagentForm > .row {
+  margin-top: 20px;
+}
+
+
+#addReagentForm > .row > div > input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#editReagentForm > .row > div > input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#editReagentForm > .row > div > select {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#editReagentForm > .row > div > label {
+  color: #432F87;
+  font-weight: 500;
+}
+
+#editReagentForm > .row {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+#addAssayType > .container > .row > div > input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+  height: 35px;
+}
+
+#addAssayType > .container > .row > div > select {
+  width: 100%;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+  height: 35px;
+}
+
+#addAssayType > .container > .row {
+  margin-top: 10px;
+}
+
+#addUserForm > .row > div > input {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#addUserForm > .row > div > select {
+  width: 100%;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: none;
+  height: 40px;
+}
+
+#addUserForm > .row > div > label {
+  color: #432F87;
+  font-weight: 500;
+}
+
+#addUserForm > .row {
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 12px;
+}
+
+.sidebar-open-true{
+  position: fixed;
+  display: flex;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  z-index: 11;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: -15px;
+}
+
+.button-col {
+  position: fixed; 
+  right : 0px
+}
+
+.row.header {
+  height: 61px;
+  background-color: white;
+  border-bottom: 1px solid #E2E2E4;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.row.header.table {
+  height: 61px;
+  border-bottom: 1px solid #E2E2E4; 
+  background-color: white;
+  width: 83.3333%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 10; 
+}
+
+.col-10.offset-2 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
