@@ -1,21 +1,21 @@
-<svg width="5217" height="8633" viewBox="0 0 5217 8633" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="469" y="2792" width="2779" height="2385" fill="url(#pattern0)"/>
-<rect width="5172" height="4602" fill="url(#pattern1)"/>
+<svg width="2499" height="4783" viewBox="0 0 2499 4783" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect y="1293" width="2489" height="1366" fill="url(#pattern0)"/>
+<rect x="404" width="1234" height="1622" fill="url(#pattern1)"/>
 <g filter="url(#filter0_d)">
-<rect x="2831" y="3442" width="1386" height="2319" rx="50" fill="url(#pattern2)"/>
-<rect x="2831.5" y="3442.5" width="1385" height="2318" rx="49.5" stroke="#E5E5E5"/>
-<rect x="2831.5" y="3442.5" width="1385" height="2318" rx="49.5" stroke="url(#paint0_linear)"/>
+<rect x="1479" y="470" width="568" height="970" rx="50" fill="url(#pattern2)"/>
+<rect x="1479.5" y="470.5" width="567" height="969" rx="49.5" stroke="#E5E5E5"/>
+<rect x="1479.5" y="470.5" width="567" height="969" rx="49.5" stroke="url(#paint0_linear)"/>
 </g>
-<rect x="719" y="3985" width="2279" height="2463" fill="url(#pattern3)"/>
-<rect x="45" y="5134" width="5172" height="3499" fill="url(#pattern4)"/>
+<rect y="2512" width="2489" height="963" fill="url(#pattern3)"/>
+<rect y="3258" width="2499" height="1525" fill="url(#pattern4)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="translate(0 -0.0201782) scale(0.000446429)"/>
+<use xlink:href="#image0" transform="translate(0 -0.313441) scale(0.000446429 0.000813441)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image1" transform="translate(0 -0.00172285) scale(0.000446429)"/>
+<use xlink:href="#image1" transform="translate(-0.236078) scale(0.000657212 0.0005)"/>
 </pattern>
-<filter id="filter0_d" x="2827" y="3442" width="1394" height="2327" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="1475" y="470" width="576" height="978" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
@@ -25,15 +25,15 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2" transform="translate(0 -0.00641021) scale(0.000998004 0.000596478)"/>
+<use xlink:href="#image2" transform="translate(-0.00387573) scale(0.00100574 0.000588928)"/>
 </pattern>
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image3" transform="translate(-0.105213) scale(0.000540369)"/>
+<use xlink:href="#image3" transform="translate(0 -0.653853) scale(0.000446429 0.00115385)"/>
 </pattern>
 <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image4" transform="translate(0 -0.159882) scale(0.000446429 0.000659882)"/>
+<use xlink:href="#image4" transform="translate(0 -0.231557) scale(0.000446429 0.000731557)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="3524" y1="3442" x2="3524" y2="5761" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="1763" y1="470" x2="1763" y2="1440" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
