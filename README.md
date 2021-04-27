@@ -1,2 +1,2 @@
-# Screenshots of the web App
+# Screenshots of the Web App
 ![Alt text](./other/screenshot.svg)
