@@ -1,4 +1,4 @@
-# Laboratory Audit App
+# Lab Auditing App
 This is a web-based application that was built in order to digitalize the documantation process of laboratory tests, by generating QR codes and keeping track of the user activities.
 
 The original application also involves a mobile application that can scan the generated QR codes in order to record tests.
